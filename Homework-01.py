@@ -23,10 +23,10 @@ def find_min(node):
         node = node.left
     return node.key
 
-# --- Приклад використання ---
+
 values = [20, 10, 30, 5, 15, 7, 8, 4, 56, 15 ,100, 8, 16]   # довільний список
 root = None
 for v in values:
     root = insert(root, v)     # будуємо BST
 
-print("Мінімальне значення:", find_min(root))  # 5
+print("Мінімальне значення:", find_min(root))  
